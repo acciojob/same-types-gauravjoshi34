@@ -1,6 +1,10 @@
 function isSameType(value1, value2) {
   //your js code here
-	if(value1===value2){
+	if(Number(value1)===Number(value2)){
+		console.log("true")
+	}elseif(value1===value2){
+		console.log("true")
+	}else if(isNan(value1)===isNan(value2)){
 		console.log("true")
 	}else{
 		console.log("false")
